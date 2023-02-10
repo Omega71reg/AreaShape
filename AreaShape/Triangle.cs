@@ -11,7 +11,7 @@
             this.c = c;
         }
 
-        private double P() => (a + b + c) / 2;
+        public double P() => (a + b + c) / 2;
         public override double Area()
         {
             if (a + b <= c || a + c <= b || c + b <= a) // Не знаем какая из переменных гипотенуза

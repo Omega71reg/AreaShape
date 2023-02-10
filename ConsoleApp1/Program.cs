@@ -8,6 +8,9 @@ internal class Program
         Console.WriteLine(new Circle(3).Area());
         Console.WriteLine(new Triangle(3,4,5).Area());
         Console.ReadKey();
-        
+
+        Console.WriteLine(new Shape(3,4,5).Area());
+        Console.WriteLine(new Shape(3).Area());
+
     }
 }
